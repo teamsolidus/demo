@@ -24,7 +24,7 @@ Unicode: &#8593; &#8595;
 
 image::abc.jpg[Bildtext]
 
-[plantuml]
+[source plantuml]
 ----
 @startuml
 clock   "Clock_0"   as C0 with period 50
