@@ -24,7 +24,7 @@ Unicode: &#8593; &#8595;
 
 image::abc.jpg[Bildtext]
 
-[source plantuml]
+[plantuml]
 ----
 @startuml
 clock   "Clock_0"   as C0 with period 50
@@ -52,13 +52,14 @@ A is 1
 @enduml
 ----
 
-```mermaid
+[mermaid]
+----
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-```
+----
 
 [source, stl]
 ----
